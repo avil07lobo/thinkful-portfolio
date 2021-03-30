@@ -1,0 +1,85 @@
+html {
+    font-family: "Comic Sans MS";
+    font-size: large;
+    background: rgb(31, 65, 61);
+    margin: 0 auto;
+        
+}
+
+/*The main heading section of my portfolio*/
+header {
+    background: black;
+    color: silver;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    padding-top: 0.5em;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    margin: 0;
+    padding: 1em;
+}
+
+body {
+    margin: 0 auto;
+    color: silver;    
+}
+
+main {
+    margin: 0 auto;
+    width: 30em;
+}
+
+/* My image styled with the right dimestions and border radius*/
+img {    
+    height: 35em;
+    width: 30em;
+    border-radius: 20px;    
+}
+
+/*A div tag that encompasses my img tag for styling purposes*/
+div {
+    text-align: center;
+    padding-top: 5em;
+    padding-bottom: 2em;   
+}
+
+/*Anchor tag that links my LinkedIn and GitHub profiles*/
+a {
+    font-style: italic;
+    font-weight: 700;
+    text-decoration: none;
+    color: silver;
+}
+
+/*Used pseudo-classes to style LinkedIn and GitHub links*/
+a:hover {
+    color: burlywood;
+}
+
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    padding: 2em;
+    color: silver;
+}
+
+/*Applied a media query for the smaller sized mobile breakpoint*/
+@media screen and (max-width: 375px) {
+    img, main, iframe {
+        width: 375px;
+        
+    }
+}
